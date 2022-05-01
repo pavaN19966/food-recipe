@@ -39,7 +39,7 @@ export default function SearchProduct() {
            </center>
               <center>
                 <form onSubmit={submitHandler}>
-                <input type="text" value={search} onChange={(e)=>setSearch(e.target.value)}  className="form-control" placeholder="Pls Enter Food Name"/> <br/>
+                <input type="text" value={search} onChange={(e)=>setSearch(e.target.value)}  className="form-control" placeholder="Please Enter Food Name"/> <br/>
                  <input type="submit" className="btn btn-primary" value="search" />
                  </form>
                  { loader &&
