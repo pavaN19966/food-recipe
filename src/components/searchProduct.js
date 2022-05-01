@@ -1,6 +1,6 @@
 import React,{useState}from 'react';
 import  ProductGet  from './productGet';
-import SearchGallery from './searchGllery';
+import SearchGallery from './searchGallery';
 
 export default function SearchProduct() {
     const [search,setSearch]=useState('');
