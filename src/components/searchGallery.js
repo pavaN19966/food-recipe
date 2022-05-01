@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function SearchGllery(props) {
+export default function SearchGallery(props) {
   return (
     <div>
          

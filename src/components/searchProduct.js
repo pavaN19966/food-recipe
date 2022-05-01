@@ -1,6 +1,6 @@
 import React,{useState}from 'react';
 import  ProductGet  from './productGet';
-import SearchGllery from './searchGllery';
+import SearchGallery from './searchGllery';
 
 export default function SearchProduct() {
     const [search,setSearch]=useState('');
@@ -52,7 +52,7 @@ export default function SearchProduct() {
                    Error...
                   </div>
                    }
-                {data.length>0 ?<SearchGllery data={data}/>:<ProductGet />
+                {data.length>0 ?<SearchGallery data={data}/>:<ProductGet />
                  }
                   </center>
                      </div>
